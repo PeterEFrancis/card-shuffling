@@ -30,6 +30,28 @@ def T_trial(shuffle, n):
     return t
     
     
+    
+    
+#                     # forward (card moving up)
+#                     new_deck_1 = self.deck.copy()
+#                     new_marked_1 = self.marked.copy()
+#                     print(initial + length - 1)
+#                     card_1 = new_deck_1[initial + length - 1]
+#                     new_marked_1.add(card_1)
+#                     new_deck_1.remove(card_1)
+#                     new_deck_1.insert(initial, card_1)
+#                     self.children.append(Node(new_deck_1, new_marked_1, self.depth + 1, 1 / size_of_S))
+                    
+#                     # backwards (card moving down)
+#                     new_deck_2 = self.deck.copy()
+#                     new_marked_2 = self.marked.copy()
+#                     card_2 = new_deck_2[initial]
+#                     new_marked_2.add(card_2)
+#                     new_deck_2.remove(card_2)
+#                     new_deck_2.insert(initial + length - 1, card_2)
+#                     self.children.append(Node(new_deck_2, new_marked_2, self.depth + 1, 1 / size_of_S))
+                    
+    
 
     
 if __name__ == "__main__":
